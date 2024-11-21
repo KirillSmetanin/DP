@@ -1,0 +1,93 @@
+.my-button1 {
+    background: var(--batton-color1);
+    border-radius: 50px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    position: relative;
+    box-shadow: var(--default-box-shadow);
+    overflow: hidden;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .my-button1 .text1 {
+    color: var(--text-color1);
+    text-align: left;
+    font-family: var(--main-text-font-family);
+    font-size: var(--main-text-font-size);
+    font-weight: var(--main-text-font-weight);
+    position: relative;
+  }
+  
+  /* Стили для состояния наведения */
+  .my-button1:hover {
+    background: var(--batton-color2);
+    box-shadow: var(--default-box-shadow);
+  }
+  
+  .my-button1:hover .text1 {
+    color: var(--text-color2);
+  }
+  
+  /* Стили для состояния нажатия */
+  .my-button1:active {
+    background: var(--batton-color3);
+    box-shadow: var(--default-box-shadow);
+    transition: none; /* Убираем анимацию */
+  }
+  
+  .my-button1:active .text1 {
+    color: var(--text-color2);
+    transition: none; /* Убираем анимацию */
+  }
+
+  .my-button2 {
+    background: var(--batton-color4);
+    border-radius: 50px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    position: relative;
+    box-shadow: var(--default-box-shadow);
+    overflow: hidden;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .my-button2 .text2 {
+    color: var(--text-color4);
+    text-align: left;
+    font-family: var(--main-text-font-family);
+    font-size: var(--main-text-font-size);
+    font-weight: var(--main-text-font-weight);
+    position: relative;
+  }
+  
+  /* Стили для состояния наведения */
+  .my-button2:hover {
+    background: var(--batton-color5);
+    box-shadow: var(--default-box-shadow);
+  }
+  
+  .my-button2:hover .text2 {
+    color: var(--text-color2);
+  }
+  
+  /* Стили для состояния нажатия */
+  .my-button2:active {
+    background: var(--batton-color6);
+    box-shadow: var(--default-box-shadow);
+    transition: none; /* Убираем анимацию */
+  }
+  
+  .my-button2:active .text2 {
+    color: var(--text-color1);
+    transition: none; /* Убираем анимацию */
+  }
